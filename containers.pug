@@ -1,0 +1,30 @@
+extends layout
+block title
+  script(src='assets/js/masonry.pkgd.min.js')
+block content
+  #main-container(style='position: relative;height:800px;')
+    #a.ff-item.ff-col-2(style='height:200px;')
+      .col-wrapper(style='background-color:red;')
+        //-svg.chart
+    #b.ff-item.ff-col-4.ff-offset-2(style='height:400px; ')
+      .col-wrapper()
+        | B
+    #c.ff-item.ff-col-6.ff-offset-6(style='height:200px; ;')
+      .col-wrapper(style='background-color:yellow;')
+        | C
+    #d.ff-item.ff-col-2(style='top:200px; height:400px; ')
+      .col-wrapper(style='background-color:orange;')
+        | D
+    #e.ff-item.ff-col-4.ff-offset-2(style='top:400px; height:300px;')
+      .col-wrapper(style='background-color:red;')
+        | E
+    #f.ff-item.ff-col-6.ff-offset-6(style='top:200px; height:600px;')
+      .col-wrapper(style='background-color:green;')
+        | F
+    #g.ff-item.ff-col-2(style='top:600px; height:200px;')
+      .col-wrapper(style='background-color:blue;')
+        | G
+    #h.ff-item.ff-col-4.ff-offset-2(style='top:600px; height:200px; ')
+      .col-wrapper(style='background-color:whitesmoke;')
+        | H
+

@@ -1,0 +1,135 @@
+extends layout
+block title
+  title
+    | Data Perception
+
+  link(href='assets/css', rel='stylesheet')
+
+block content
+  //.container-fluid
+    //nav.navbar.navbar-default
+      //.navbar-header
+        //button.navbar-toggle(type='button', data-toggle='collapse', data-target='#navbar', aria-expanded='false', aria-controls='navbar')
+          //span.sr-only 
+            //| Toggle navigation
+          //span.icon-bar
+          //span.icon-bar
+          //span.icon-bar
+        //a.navbar-brand(href='#') 
+          //img(src='img/Wag_logo_20160816_011353.jpg' width='125')
+      //#navbar.navbar-collapse.collapse
+        //ul.nav.navbar-nav.list-inline.text-center
+          //li.active
+            //a(href='#')
+              //| Locations
+          //li(role='presentation' class='dropdown')
+            //a.dropdown-toggle( data-toggle='dropdown' href='#' role='button' aria-haspopup='false' aria-expanded= 'false')
+              //| Services
+              //span.caret
+            //ul.dropdown-menu
+              //li.title
+                //a(href='#')
+                  //| Service 1
+              //li
+                //a(href='#')
+                  //| Service 2
+          //li
+            //a(href='#')
+              //| About Us
+          //li
+            //a(href='#')
+              //| Blog
+          //li
+            //a(href='#')
+              //| Videos
+          //li
+            //a(href='#')
+              //| Franchise 
+              //span.with-us
+                //| With Us
+
+  .container-fluid.home
+    .row
+      .col-sm-6.col-sm-offset-3.main-logo
+        object#thelogo(style='width: 100%;' data='img/logo.svg')
+          //img.img-responsive(src='img/logo.svg')
+        h1.main-title
+          | data perception
+        .subtitle
+          | Perceiving, managing and presenting your data
+
+
+    .menu
+      ul
+        li.active
+          a(href='#')
+            | About
+        li
+          a(href='#')
+            | Services
+        li
+          a(href='#')
+            | Take a Tour
+        li
+          a(href='#')
+            | Contact
+
+
+  .container-fluid
+    .row
+      .col-sm-12.services
+        .row
+          .col-sm-4
+            h2
+              | Cleaning & Sorting
+            .window
+
+          .col-sm-4
+            h2
+              | Visualization
+            .window
+          .col-sm-4
+            h2
+              | Analysis
+            .window
+
+  .container-fluid.touring
+    .row
+      .col-sm-12
+        #main-wrapper(style='position: relative;height:800px;')
+          #a.ff-item.ff-col-2(style='height:200px;')
+            .col-wrapper(style='background-color:#f2f2f2;;')
+              //-svg.chart
+          #b.ff-item.ff-col-4.ff-offset-2(style='height:400px; ')
+            .col-wrapper()
+              | B
+          #c.ff-item.ff-col-6.ff-offset-6(style='height:200px; ;')
+            .col-wrapper(style='background-color:#f2f2f2;')
+              | C
+          #d.ff-item.ff-col-2(style='top:200px; height:400px; ')
+            .col-wrapper(style='background-color:#f2f2f2;')
+              | D
+          #e.ff-item.ff-col-4.ff-offset-2(style='top:400px; height:300px;')
+            .col-wrapper(style='background-color:#f2f2f2;')
+              | E
+          #f.ff-item.ff-col-6.ff-offset-6(style='top:200px; height:600px;')
+            .col-wrapper
+          #g.ff-item.ff-col-2(style='top:600px; height:200px;')
+            .col-wrapper
+          #h.ff-item.ff-col-4.ff-offset-2(style='top:600px; height:200px; ')
+            .col-wrapper(style='background-color:#f2f2f2;')
+              | H
+  #status-bar
+    .col-sm-6.col-left
+      .icon-wrapper
+        img(src='img/menu-logo.svg' width='50' height='50')
+      .text-wrapper
+        | About
+    .col-sm-6.col-right
+      | data-perception
+
+
+
+
+
+

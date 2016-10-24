@@ -1,0 +1,143 @@
+body {
+background-color: #f2f2f2;
+font-family: 'Tex-Gyre-Adventor'
+}
+
+a{
+
+}
+a:hover {
+  text-decoration: none;
+}
+
+.home {
+  padding-top: 50px;
+  padding-bottom: 75px;
+}
+
+.main-logo {
+  padding: 50px;
+  position: relative;
+}
+.main-title {
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 5px;
+  color: black;
+}
+
+.subtitle {
+  text-align:center;
+  font-size: 15px;
+  color: #008080;
+  letter-spacing: 2px;
+}
+
+.ff-item{
+  position: absolute;
+  padding:2px;
+  background-color: white;
+}
+.ff-col-2 {
+  width: 16.66666667%;
+}
+.ff-col-4 {
+  width: 33.33333333%;
+}
+.ff-col-6 {
+  width: 50%;
+}
+
+.ff-offset-2 {
+  left: 16.66666667%;
+}
+.ff-offset-4 {
+  left: 33.33333333%;
+}
+.ff-offset-6 {
+  left: 50%;
+}
+
+
+.col-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.menu {
+  position: absolute;
+  right: 0;
+  top: 25%;
+  padding: 50px;
+}
+
+.menu ul {
+  list-style:none;
+  border-left: solid 1px #008080;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.menu ul > li > a {
+  font-size: 12px;
+  color: #4d4d4d;
+  
+}
+.menu ul > li.active > a{
+  font-weight: bold;
+  color: #008080;
+}
+.menu ul > li:hover > a{
+  color: #008080;
+}
+
+.services {
+  padding: 100px 70px 100px 70px;
+  background-color: #006864;
+}
+
+.services h2 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.services .window {
+  border: solid 3px white;
+  background-color: #e6e6e6;
+  height: 250px;
+}
+
+.touring {
+  padding: 3px;
+  background-color: 3px;
+}
+
+#status-bar {
+  position: fixed;
+  bottom: 0px;
+  left:0px;
+  width: 100%;
+  right:0px;
+  padding:10px;
+}
+#status-bar .icon-wrapper {
+  display: inline-block;
+}
+#status-bar .text-wrapper {
+  display: inline-block;
+}
+#status-bar .col-right {
+  text-align: right;
+  color: 13px;
+  color: white;
+}
+
+
+/*.histogram .bar rect {*/
+  /*fill: steelblue;*/
+/*}*/
+
+/*.histogram .bar text {*/
+  /*fill: #fff;*/
+  /*font: 15px sans-serif;*/
+/*}*/
